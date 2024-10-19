@@ -249,7 +249,6 @@ body{
   color: darkgoldenrod;
   padding-top: 20px;
   margin-bottom: 80px;
-  padding-left: 50px;
   margin-top: -80px;
   font-size: 70px;
 }
@@ -259,16 +258,32 @@ body{
   color: darkgoldenrod;
   padding-top: 20px;
   margin-bottom: 80px;
-  padding-left: 50px;
   margin-top: -80px;
   font-size: 50px;
+}
+
+@media (max-width : 576px) {
+  .welcome .culinary h1{
+    font-size: 45px;
+    }
+    .welcome .culinary h2{
+      font-size: 42px;
+      }
+}
+
+@media (max-width : 370px) {
+  .welcome .culinary h1{
+    font-size: 40px;
+    }
+    .welcome .culinary h2{
+      font-size: 36px;
+      }
 }
 .welcome .culinary p{
   font-family: 'Times New Roman', Times, serif;
   color: bisque;;
   padding-top: 60px;
   
-  padding-left: 50px;
   margin-top: -80px;
   font-size: 25px;
 }
@@ -380,7 +395,6 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 color: darkgoldenrod;
 padding-top: 40px;
 margin-bottom: 80px;
-padding-left: 50px;
 margin-top: -80px;
 font-size: 70px;
 }
@@ -389,7 +403,6 @@ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 color: darkgoldenrod;
 padding-top: 20px;
 margin-bottom: 80px;
-padding-left: 50px;
 margin-top: -80px;
 font-size: 50px;
 }
@@ -397,7 +410,6 @@ font-size: 50px;
 font-family: 'Times New Roman', Times, serif;
 color: bisque;;
 padding-top: 60px;
-padding-left: 50px;
 margin-top: -80px;
 font-size: 25px;
 }
@@ -440,6 +452,7 @@ margin-bottom: 80px;
 margin-top: -80px;
 font-size: 70px;
 }
+
 .welcome-foto .foto h2{
 font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 color: darkgoldenrod;
@@ -448,6 +461,24 @@ margin-bottom: 80px;
 margin-top: -80px;
 font-size: 50px;
 }
+@media (max-width : 576px) {
+  .welcome-foto .foto h1{
+    font-size: 45px;
+    }
+    .welcome-foto .foto h2{
+      font-size: 42px;
+      }
+}
+
+@media (max-width : 370px) {
+  .welcome-foto .foto h1{
+    font-size: 40px;
+    }
+    .welcome-foto .foto h2{
+      font-size: 36px;
+      }
+}
+
 .welcome-foto .foto p{
 font-family: 'Times New Roman', Times, serif;
 color: bisque;;
@@ -648,4 +679,13 @@ color: bisque;;
 padding-top: 60px;
 margin-top: -80px;
 font-size: 25px;
+}
+
+.berjalan {
+  width: 50%;
+}
+@media (max-width : 576px) {
+  .berjalan {
+    width: 75%;
+  }
 }
