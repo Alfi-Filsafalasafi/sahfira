@@ -146,19 +146,12 @@ body{
     color: antiquewhite;
   }
   
-  .card-container {
-    display: flex;
-    gap: 20px;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    padding: 20px;
-  }
+ 
   
   
   .card {
     border: 1px solid #ddd;
     border-radius: 8px;
-    width: 300px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     transition: transform 0.2s;
@@ -347,6 +340,24 @@ aside img{
   margin-top: -80px;
   font-size: 50px;
 }
+
+@media (max-width : 576px) {
+  .welcome-sejarah .sejarah h1{
+    font-size: 45px;
+    }
+    .welcome-sejarah .sejarah h2{
+      font-size: 42px;
+      }
+}
+
+@media (max-width : 370px) {
+  .welcome-sejarah .sejarah h1{
+    font-size: 40px;
+    }
+    .welcome-sejarah .sejarah h2{
+      font-size: 36px;
+      }
+}
 .welcome-sejarah .sejarah p{
   font-family: 'Times New Roman', Times, serif;
   color: bisque;;
@@ -532,6 +543,24 @@ padding-top: 20px;
 margin-bottom: 80px;
 margin-top: -80px;
 font-size: 50px;
+}
+
+@media (max-width : 576px) {
+  .welcome-lain .lain h1{
+    font-size: 45px;
+    }
+    .welcome-lain .lain h2{
+      font-size: 42px;
+      }
+}
+
+@media (max-width : 370px) {
+  .welcome-lain .lain h1{
+    font-size: 40px;
+    }
+    .welcome-lain .lain h2{
+      font-size: 36px;
+      }
 }
 .welcome-lain .lain p{
 font-family: 'Times New Roman', Times, serif;
